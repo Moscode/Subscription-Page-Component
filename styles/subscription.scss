@@ -1,0 +1,62 @@
+@import './variables';
+body{
+    background-color:$backgroundColor;
+    font-family: 'Karla', sans-serif;
+}
+
+.subscription{
+    margin: 5% 10%;
+}
+
+.join-us{
+    background-color: #ffffff;
+    padding: 2% 10%;
+    h2{
+        color: $primaryCyan;
+    }
+    h4{
+        color: $brightYellow;
+    }
+    p{
+        color: $grayishBlue;
+    }
+}
+
+.monthly-sub{
+    width: 80%;
+    padding:2% 10%;
+    background-color: $primaryCyan;
+    h3{
+        color:$white;
+    }
+    p{
+        color:$white;
+        span{
+            color:$backgroundColor;
+        }
+    }
+    button{
+        background-color:$brightYellow;
+        width:98%;
+        height:40px;
+        margin:20px 1%;
+        border-radius: 5px;
+        border: 0px;
+        &:hover{
+            box-shadow: 0px 10px 30px -3px rgba(0,0,0, .5);
+        }
+    }
+}
+
+.why-us{
+    padding: 3% 10%;
+    background-color:hsla(179, 62%, 43%, .7);
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    h3{
+        color: $white;
+    }
+    p{
+        color:$backgroundColor;
+    }
+}
