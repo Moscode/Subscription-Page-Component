@@ -36,7 +36,7 @@ body{
         }
     }
     button{
-        background-color:$brightYellow;
+        background-color:hsla(71, 73%, 54%, 0.7);
         width:98%;
         height:40px;
         margin:20px 1%;
@@ -44,6 +44,7 @@ body{
         border: 0px;
         &:hover{
             box-shadow: 0px 10px 30px -3px rgba(0,0,0, .5);
+            background-color:hsla(71, 73%, 54%, 1) ;
         }
     }
 }
@@ -59,4 +60,15 @@ body{
     p{
         color:$backgroundColor;
     }
+}
+
+@media screen and (min-width: 1000px) {
+    section{
+        display:flex;
+    }
+    .why-us{
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius:5px;
+    }
+
 }
